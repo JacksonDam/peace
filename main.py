@@ -16,7 +16,7 @@ def resource_path(relative_path):
 def play_crash_sound():
     pygame.init()
     pygame.mixer.init()
-    sounda = pygame.mixer.Sound("crash.wav")
+    sounda = pygame.mixer.Sound("music.wav")
     sounda.play()
 
 root = tk.Tk()
